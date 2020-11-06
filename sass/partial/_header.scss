@@ -1,0 +1,24 @@
+.logo{
+    padding: 29px 0px 29px 0px;
+    float: left;
+    color: #606060;
+    font-weight: bold;
+}
+.menu{
+    float: right;
+    padding: 29px 0px 29px 0px;
+}
+.menu-lista li{
+    list-style: none;
+    float: left;
+
+}
+.menu-lista li + li{
+    margin-left: 22px;
+
+}
+.menu-lista a{
+    color: #888888;
+    text-decoration: none;
+    font-weight: bold;
+}
