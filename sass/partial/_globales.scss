@@ -7,8 +7,16 @@
     width: 600px;
     margin: 0 auto;
 }
+.wrapper-text{
+    width: 500px;
+    margin: 0 auto;
+}
 .clearfix::after{
     content: "";
     clear: both;
     display: table;
+}
+h1{
+    color: #292c34;
+    font-family: Arial, Helvetica, sans-serif;
 }
