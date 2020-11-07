@@ -1,6 +1,6 @@
 .copy{
     padding-left: 100px;
-    float: left;
+    float: $float-left;
     color: #95989d;
 }
 
@@ -8,7 +8,7 @@
 .redes{
     padding-top: 15px;
     padding-right: 100px;
-    float: right;
+    float: $float-right;
 }
 .redes img +img{
     margin-left: 15px;
