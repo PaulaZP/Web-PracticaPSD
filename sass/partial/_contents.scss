@@ -1,4 +1,5 @@
 .content{
+    max-width: 100%;
     color: $color-gris-oscuro;
     text-align: $text-align-center;
     padding-left: 27px;
@@ -6,7 +7,13 @@
     padding: 66px 0px 66px 0px;
     margin-bottom: 35px;
 }
+.slider-1 img{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
 .content-3{
+    max-width: 100%;
     color: $color-gris-oscuro;
     text-align: $text-align-center;
     background-color: $background-color-white;
@@ -14,6 +21,7 @@
     margin-bottom: 35px;
 }
 .content-5{
+    max-width: 100%;
     color: $color-gris-oscuro;
     text-align: $text-align-center;
     padding-left: 27px;
@@ -23,67 +31,6 @@
 }
 .titulo-gallery{
     color: $color-white;
-}
-
-/*--------Botones--------*/
-.boton-1 a{
-    color: $color-white;
-    background-color: #7bb84f;
-    padding: 14px 26px;
-    border-radius: 2px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 133px;
-}
-.boton-1{
-    margin-top: 29px;
-}
-.boton-2 a{
-    color: $color-white;
-    background-color: #f5ba1c;
-    padding: 14px 26px;
-    border-radius: 2px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 133px;
-}
-.boton-2{
-    margin-top: 29px;
-}
-.boton-3 a{
-    color: $color-white;
-    background-color: #e02d74;
-    padding: 14px 26px;
-    border-radius: 2px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 133px;
-}
-.boton-3{
-    margin-top: 29px;
-}
-.boton-4 a{
-    color: $color-white;
-    background-color: #40aceb;
-    padding: 14px 26px;
-    border-radius: 2px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.boton-4{
-    padding-top: 32px;
-}
-.boton-view a{
-    color: #373a41;
-    background-color: #f9f9f9;
-    padding: 14px 37px 14px 37px;
-    border-radius: 2px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 133px;
-}
-.boton-view{
-    margin-top: 29px;
 }
 
 /*--------Newsroom--------*/
@@ -116,7 +63,7 @@
     color: $color-white;
     background-color: #a4d3f3;
     padding: 50px 60px 50px 40px;
-    text-align: $text-align-right;
+    text-align: right;
 }
 .cuadro-4 img{
     display: block;
@@ -131,7 +78,7 @@
     color: $color-white;
     background-color: #333c4d;
     padding: 60px 60px 50px 40px;
-    text-align: $text-align-left;
+    text-align: left;
 }
 .cuadro-7{
     line-height: 25px;
@@ -139,7 +86,7 @@
     color: $color-white;
     background-color: #76b3dd;
     padding: 57px 60px 54px 40px;
-    text-align: $text-align-right;
+    text-align: right;
 }
 
 

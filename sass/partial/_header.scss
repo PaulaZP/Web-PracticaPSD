@@ -1,18 +1,23 @@
+
+.header{
+    max-width: 100%;
+    width: 100%;
+}
 .logo{
     padding: 29px 0px 29px 0px;
-    float: $float-left;
+    float: left;
     color: #606060;
     font-weight: bold;
 }
 
 /*--------Menu--------*/
 .menu{
-    float: $float-right;
+    float: right;
     padding: 29px 0px 29px 0px;
 }
 .menu-lista li{
     list-style: none;
-    float: $float-left;
+    float: left;
 
 }
 .menu-lista li + li{

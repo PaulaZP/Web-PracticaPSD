@@ -334,55 +334,6 @@ h2 {
   color: #292c34;
   font-family: Arial, Helvetica, sans-serif; }
 
-.logo {
-  padding: 29px 0px 29px 0px;
-  float: left;
-  color: #606060;
-  font-weight: bold; }
-
-/*--------Menu--------*/
-.menu {
-  float: right;
-  padding: 29px 0px 29px 0px; }
-
-.menu-lista li {
-  list-style: none;
-  float: left; }
-
-.menu-lista li + li {
-  margin-left: 22px; }
-
-.menu-lista a {
-  color: #888888;
-  text-decoration: none;
-  font-weight: bold; }
-
-.content {
-  color: #888888;
-  text-align: center;
-  padding-left: 27px;
-  background-color: white;
-  padding: 66px 0px 66px 0px;
-  margin-bottom: 35px; }
-
-.content-3 {
-  color: #888888;
-  text-align: center;
-  background-color: white;
-  padding: 72px 0px 100px 0px;
-  margin-bottom: 35px; }
-
-.content-5 {
-  color: #888888;
-  text-align: center;
-  padding-left: 27px;
-  background-color: #292c34;
-  padding: 71px 0px 68px 0px;
-  margin-bottom: 35px; }
-
-.titulo-gallery {
-  color: white; }
-
 /*--------Botones--------*/
 .boton-1 a {
   color: white;
@@ -442,6 +393,67 @@ h2 {
 
 .boton-view {
   margin-top: 29px; }
+
+.header {
+  max-width: 100%;
+  width: 100%; }
+
+.logo {
+  padding: 29px 0px 29px 0px;
+  float: left;
+  color: #606060;
+  font-weight: bold; }
+
+/*--------Menu--------*/
+.menu {
+  float: right;
+  padding: 29px 0px 29px 0px; }
+
+.menu-lista li {
+  list-style: none;
+  float: left; }
+
+.menu-lista li + li {
+  margin-left: 22px; }
+
+.menu-lista a {
+  color: #888888;
+  text-decoration: none;
+  font-weight: bold; }
+
+.content {
+  max-width: 100%;
+  color: #888888;
+  text-align: center;
+  padding-left: 27px;
+  background-color: white;
+  padding: 66px 0px 66px 0px;
+  margin-bottom: 35px; }
+
+.slider-1 img {
+  display: block;
+  max-width: 100%;
+  width: 100%; }
+
+.content-3 {
+  max-width: 100%;
+  color: #888888;
+  text-align: center;
+  background-color: white;
+  padding: 72px 0px 100px 0px;
+  margin-bottom: 35px; }
+
+.content-5 {
+  max-width: 100%;
+  color: #888888;
+  text-align: center;
+  padding-left: 27px;
+  background-color: #292c34;
+  padding: 71px 0px 68px 0px;
+  margin-bottom: 35px; }
+
+.titulo-gallery {
+  color: white; }
 
 /*--------Newsroom--------*/
 .cuadro-1-our {
