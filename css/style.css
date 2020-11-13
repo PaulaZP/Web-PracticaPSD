@@ -303,37 +303,6 @@ template {
 [hidden] {
   display: none; }
 
-body {
-  background-color: #eaeced; }
-
-html {
-  font-size: 16px; }
-
-#wrapper {
-  width: 800px;
-  margin: 0 auto; }
-
-#content-wrapper {
-  width: 600px;
-  margin: 0 auto; }
-
-.wrapper-text {
-  width: 500px;
-  margin: 0 auto; }
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table; }
-
-h1 {
-  color: #292c34;
-  font-family: Arial, Helvetica, sans-serif; }
-
-h2 {
-  color: #292c34;
-  font-family: Arial, Helvetica, sans-serif; }
-
 /*--------Botones--------*/
 .boton-1 a {
   color: white;
@@ -394,6 +363,37 @@ h2 {
 .boton-view {
   margin-top: 29px; }
 
+body {
+  background-color: #eaeced; }
+
+html {
+  font-size: 16px; }
+
+#wrapper {
+  width: 800px;
+  margin: 0 auto; }
+
+#content-wrapper {
+  width: 600px;
+  margin: 0 auto; }
+
+.wrapper-text {
+  width: 500px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+h1 {
+  color: #292c34;
+  font-family: Arial, Helvetica, sans-serif; }
+
+h2 {
+  color: #292c34;
+  font-family: Arial, Helvetica, sans-serif; }
+
 .header {
   max-width: 100%;
   width: 100%; }
@@ -405,6 +405,9 @@ h2 {
   font-weight: bold; }
 
 /*--------Menu--------*/
+.menu-resp a {
+  display: none; }
+
 .menu {
   float: right;
   padding: 29px 0px 29px 0px; }
@@ -522,3 +525,22 @@ h2 {
 
 .redes img + img {
   margin-left: 15px; }
+
+@media (max-width: 1023px) {
+  .menu {
+    display: none; }
+  .menu-resp a {
+    display: block;
+    padding: 10px 10px;
+    background-color: #0071bd;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .menu-resp a:hover {
+    background-color: #09273b; }
+  .menu-resp {
+    width: 80px;
+    float: right;
+    padding-top: 35px; } }

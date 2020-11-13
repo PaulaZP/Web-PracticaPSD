@@ -1,7 +1,12 @@
 @import 'partial/normalize';
+
 @import 'component/setting';
-@import 'partial/globales';
+
 @import 'partial/btns';
+@import 'partial/globales';
 @import 'partial/header';
 @import 'partial/contents';
 @import 'partial/footer';
+
+@import 'brekpoints/movil';
+@import 'brekpoints/tablet';
