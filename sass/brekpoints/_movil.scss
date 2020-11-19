@@ -1,2 +1,72 @@
 @media(max-width: 767px){
+    #wrapper{
+        max-width: 100%;
+    }
+    .menu-resp a{
+        display: block;
+        padding: 10px 10px;
+        background-color: #0071bd;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        border-radius: 3px;
+        font-family: $font-family;
+    }
+    .menu-resp a:hover{
+        background-color: #09273b;
+    }
+    .menu-resp{
+        width: 80px;
+        float: right;
+        padding-top: 35px;
+    }
+    /*--------Newsroom--------*/
+    .cuadro-1-our{
+        float: none;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .cuadro-2-our{
+        float: none;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .cuadro-2{
+        line-height: 25px;
+        width: 200px;
+        color: $color-white;
+        background-color: #0071bd;
+        padding: 57px 60px 50px 40px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    /*--------our gallery--------*/
+    .gallery{
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .gallery img{
+        max-width: 100%;
+        width: 100%;
+        
+    }
+
+    /*--------footer--------*/
+    .copy{
+        padding-left: 10px;
+        float: left;
+        color: #95989d;
+    }
+    
+    /*--------Iconos--------*/
+    .redes{
+        padding-top: 15px;
+        padding-right: 10px;
+        float: right;
+    }
+    .redes img +img{
+        margin-left: 15px;
+    }
 }
