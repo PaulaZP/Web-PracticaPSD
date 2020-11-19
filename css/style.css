@@ -471,6 +471,7 @@ h2 {
   margin-top: 37px; }
 
 .cuadro-1 img {
+  max-width: 100%;
   display: block; }
 
 .cuadro-2 {
@@ -491,9 +492,11 @@ h2 {
   text-align: right; }
 
 .cuadro-4 img {
+  max-width: 100%;
   display: block; }
 
 .cuadro-5 img {
+  max-width: 100%;
   display: block; }
 
 .cuadro-6 {
@@ -513,6 +516,7 @@ h2 {
   text-align: right; }
 
 .cuadro-8 img {
+  max-width: 100%;
   margin-bottom: 40px; }
 
 .copy {
